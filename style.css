@@ -1,0 +1,77 @@
+header {
+  text-align: center;
+  background: url('assets/backgroundblog.jpg');
+  background-size: cover;
+  color: white;
+}
+a {
+  color: white;
+}
+h1 {
+  font-size: 70px;
+  text-shadow: 6px 6px rgba(0,100,100,0.5);
+}
+img {
+  margin: 40px 0px 0px 0px;
+  border-style:double;
+  border-width:10px;  
+  border-color: white;
+  border-radius: 20px;
+}
+    input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+input[type="submit"] {
+  background: red;
+  color: white;
+  position: fixed;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,100,100,0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+ 
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+}
+.button {
+  background-color: rgba(0,100,100,0.6);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+    }
+.button1:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
